@@ -1,0 +1,92 @@
+/*
+--- Blue and Green skin.
+*/
+
+
+/* default styles */
+html, body {
+   background: #44749C;
+   color: #FDFDFE;
+}
+
+body {
+   box-shadow: inset 0 0 1000px #3B6B94;
+   -webkit-box-shadow: inset 0 0 1000px #3B6B94;
+   -moz-box-shadow: inset 0 0 1000px #3B6B94;
+}
+
+a, a:visited {
+   position: relative;
+   color: #1ABC9C;
+   text-decoration: none;
+}
+
+
+
+/* checkbox styles */
+.checkbox label {
+   background: #36638A;
+   border: 1px solid #325C80;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+}
+
+.checkbox label:after {
+   border-bottom: 3px solid #1ABC9C;
+   border-left: 3px solid #1ABC9C;
+}
+
+
+
+/* header styles */
+#header .pull-left #logo-icon {
+   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtdJREFUeNrMmG9kVWEcx8/dTcSIMpa10atlGctNOWmWcolYRpRGIrr2IovIUu7Um6VZ6k2UUhoxpinFROOSUtqbxRQj4hJjikuk6Pvje6/rOOf5d87OvT8+dnfOc5/ne5/n+f15nkzn0pzXzLYhwb7awBA/y69ebSaBXeADaOf/E2A/+Bq345aEBN6uEye2hc+8ZhAoszcY8vwI3zVc4CmQjXh3dD0FyqBj4BN4BkZAa6BNBzih6GOIzhO0AVAEjzjTkZZRhJnnIUv3A1wEZXAF5A0n4gWYBD0U1hF4XwD3bQR2gy8phrs/YCuomC7xr5Tj8UbbPShLWUpR4Puw2dM5ya0UBV538WLZ2K9SEPcYzLvGwVmLgWRbLJKKxffm4wTqswYDvAUHwTawh4hHnjTMxWOuAvvAAU3nd0B/iENJ2JgBuw22iYyTsxHYyyB8T9OxBNALmja/wTD4rml3lzOZUwVqefmAv0hn/8BOsGK4zw6BN4ZtP4Lz/FubQZ/1XJ9FJysWjrBgMItV2wveUVNN4HFFRRJmyw7hZNGibZaaEitY182qAh9axq5uh7FyFm3XqKkmcJmbfsawA9+yWjZtL873FOyqbqP6JS4zuG4H45p9JnvkpkWlMmXgdKcZ4IeZlSLjYJnJu6DpVCrpa5o2UoE/qXqkwiSeToeVeS2aFKZLVUVW3r0R55ElzZFA7DPLLadcPGmwhIMU8hO8Zgz7C16CHQbfH49TLPgWjrCZZxTfMqbmXQVKKDmTQqgbidgiWoHnLGcijo26CMx76ZnvIrBLcURM2lZdBM5FiBOv22dxXqkwbR0GV0NSaoWXAdY3C1kG4lFG9gWe9OpjYzvrvB5FmXUsIKqNRwm5/tgELqviYCaBG9aiIqPI4Dcafbs1zSQfZrGPrUkI/MazbdBKTGMNFyh2iULrvbKQRMdJ3VGv8YiZ53KX+KxpBHoslWa9hO2/AAMAU/+QaRWDKfQAAAAASUVORK5CYII=');
+}
+
+
+
+/*----- main form styles -----*/
+#main .content {
+   background: #3B6B94;
+   border: 1px solid #36638A;
+   box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+   -webkit-box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+   -moz-box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+#main .content h4 i {
+   color: #1ABC9C;
+}
+
+.content button[type=submit] {
+   background-color: #1ABC9C;
+   border-bottom: 3px solid #16A085;
+}
+
+.content button[type=submit]:hover,
+.content button[type=submit]:active {
+   background-color: #1DD2AF;
+   border-bottom: 3px solid #19B698;
+}
+
+
+
+/* JQuery UI styles */
+.ui-widget-content {
+   border: 1px solid #325C80;
+   background: #1ABC9C;
+}
+
+.ui-widget-header {
+   background: #36638A;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+   border: 1px solid #EDEDF2;
+   background: #FDFDFE;
+   cursor: pointer;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+}
