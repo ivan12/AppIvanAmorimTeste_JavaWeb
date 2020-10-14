@@ -1,7 +1,7 @@
 
-#Teste Analista Ivan Amorim
+#Chamada de Senhas
 
-1) Baixe os arquivos do projeto no Repositório do GitHub
+1) Baixe os arquivos do GitHub
 
 2) Importe o projeto Maven no eclipse
 
@@ -11,9 +11,9 @@
 
 5) O programa irá abrir em uma tela inicial que permitirá clicar em dois botões:
 
-	"Gerar Senha Normal" >>  Que ao clicar gera uma senha com N####
+	"Gerar Senha Normal" >>  Que ao clicar gera uma senha começando com a letra N####
 	
-	"Gerar Senha Preferencial" >> Que ao clicar gera uma senha com P####
+	"Gerar Senha Preferencial" >> Que ao clicar gera uma senha começando com a letra P####
 	
 6) Para abrir como gerente basta colocar um nome no final da url exemplo abaixo:
 
@@ -26,4 +26,5 @@
 	"Reiniciar senhas" >> Ao clicar reinicia a contagem das senhas
 	
 	
+
 
