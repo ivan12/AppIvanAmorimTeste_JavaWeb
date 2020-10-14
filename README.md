@@ -27,4 +27,28 @@
 	
 	
 
+#Calling Passwords
+
+1) Download the files from GitHub
+
+2) Import the Maven project into eclipse
+
+3) Configure the project to run with Tomcat 8
+
+4) Right click on the project root and "Run As" >> "Run on Server"
+
+5) The program will open in a home screen that will allow you to click on two buttons:
+
+"Generate Normal Password" >> When clicking on it generates a password starting with the letter N ####
+
+"Generate Preferred Password" >> Which when clicking generates a password starting with the letter P ####
+
+6) To open as a manager just put a name at the end of the example url below:
+
+http: // localhost: 8080 / TesteAnalistaIvan / ivan
+
+"Next password" >> Clicking it calls the next password to be shown on the home screen, considering that it will call the preferred passwords first
+
+"Reset passwords" >> Clicking resets the password count
+
 
